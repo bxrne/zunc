@@ -1,0 +1,4 @@
+.git/
+handler
+*.pdb
+*.obj
