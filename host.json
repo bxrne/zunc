@@ -6,9 +6,9 @@
   },
   "customHandler": {
     "description": {
-      "defaultExecutablePath": "handler",
+      "defaultExecutablePath": "/bin/sh",
       "workingDirectory": "",
-      "arguments": []
+      "arguments": ["-c", "chmod +x ./handler 2>/dev/null; exec ./handler"]
     },
     "enableForwardingHttpRequest": true
   }
